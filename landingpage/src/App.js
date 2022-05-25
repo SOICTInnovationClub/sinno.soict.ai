@@ -1,7 +1,11 @@
+import Content from "./components/content";
+import RegularActivities from "./components/Regular-activities";
 function App() {
   return (
     <div className="App">
-      hello
+      Demo phần của Hương
+      <Content/>
+      <RegularActivities/>
     </div>
   );
 }
