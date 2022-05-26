@@ -1,7 +1,7 @@
 # sinno.soict.ai
 landingpage for SINNO
 
-Clone + config:
+# Clone + config:
 git clone https://github.com/SOICTInnovationClub/sinno.soict.ai
 cd sinno.soict.ai
 cd landingpage
