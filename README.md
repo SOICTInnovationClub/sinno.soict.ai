@@ -1,10 +1,9 @@
 # sinno.soict.ai
 landingpage for SINNO
 
-  Clone + config:
-  git clone https://github.com/SOICTInnovationClub/sinno.soict.ai
-  cd sinno.soict.ai
-  cd landingpage
-  (install node.js)
-  npm install
-  npm start
+- Clone + config:
+1. git clone https://github.com/SOICTInnovationClub/sinno.soict.ai
+2. cd sinno.soict.ai
+3. cd landingpage (install node.js)
+4. npm install
+5. npm start
