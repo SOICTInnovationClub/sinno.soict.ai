@@ -1,10 +1,9 @@
-import Content from "./components/content";
+import Contest from "./components/contest";
 import RegularActivities from "./components/Regular-activities";
 function App() {
   return (
     <div className="App">
-      Demo phần của Hương
-      <Content/>
+      <Contest/>
       <RegularActivities/>
     </div>
   );
