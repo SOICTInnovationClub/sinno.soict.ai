@@ -7,11 +7,11 @@ const Contest = () => {
     return (
         <div class="bg-gradient-to-b from-blue-500 via-blue-400 to-green-300 px-24">
             <div class="justify-center flex pt-10">
-                <div class="text-center bg-blue-400 px-6 pb-1 w-1/16 rounded-md text-white font-bold text-2xl">Contest</div>
+                <div class="text-center bg-blue-400 px-6 pb-1 w-1/16 rounded-md text-white font-black text-3xl">Contest</div>
             </div>
-            <div class="pl-10">
+            <div class="pl-10 text-xl">
                 <div class="p-4 flex">
-                    <div class="w-1/6 justify-center flex bg-white rounded-md mr-8 px-4 py-2 border">
+                    <div class="w-1/6 justify-center flex bg-white rounded-2xl mr-8 px-4 py-2 border shadow-2xl">
                         <img class="h-36 w-5/6" src={logo_page_1} alt="" />
                     </div>
                     <div class="w-5/6 py-8 pr-12">
@@ -21,7 +21,7 @@ const Contest = () => {
                     </div>
                 </div>
                 <div class="p-4 flex">
-                    <div class="w-1/6 justify-center flex bg-white rounded-md mr-8 px-4 py-2 border">
+                    <div class="w-1/6 justify-center flex bg-white rounded-2xl mr-8 px-4 py-2 border shadow-2xl">
                         <img class="h-36 w-5/6" src={logo_page_2} alt="" />
                     </div>
                     <div class="w-5/6 pr-12 py-8">
@@ -31,7 +31,7 @@ const Contest = () => {
                     </div>
                 </div>
                 <div class="p-4 flex">
-                    <div class="w-1/6 justify-center flex bg-white rounded-md mr-8 px-4 py-2 border">
+                    <div class="w-1/6 justify-center flex bg-white rounded-2xl mr-8 px-4 py-2 border shadow-2xl">
                         <img class="h-36 w-5/6" src={logo_page_3} alt="" />
                     </div>
                     <div class="w-5/6 pr-12 py-8">
