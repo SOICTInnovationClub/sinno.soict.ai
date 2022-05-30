@@ -10,6 +10,7 @@ import ThTien from '../images/ThTien.png';
 import ADat from '../images/ADat.png';
 import vt3 from '../images/Vector3.png';
 import vt from '../images/Vector2.png';
+import bg_white from '../images/bg-white.png';
 const RegularActivities = () => {
     return (
         <div class="font-sans pt-10 text-xl" style={{ background: "linear-gradient(135deg, #F5CBFF 0%, #C346C2 100%)" }}>
@@ -40,7 +41,7 @@ const RegularActivities = () => {
                 Regular activities
             </div>
             <div class="flex justify-between pt-10 pb-20">
-                <div class="w-1/4 ml-32 mb-16 mt-20 rounded-xl p-4 shadow-2xl" style={{ background: "#E5E5E5", zIndex:5 }}>
+                <div class="w-1/4 ml-32 mb-16 mt-20 rounded-xl p-4 shadow-2xl  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" style={{ background: "#E5E5E5", zIndex:5 }}>
                     <div class="flex justify-center">
                         <img class="h-64" src={frame_6_1} alt="" />
                     </div>
@@ -49,7 +50,7 @@ const RegularActivities = () => {
                         <div>Members continously dicuss, share experience and contribute to develop products as well as ideas for competition.</div>
                     </div>
                 </div>
-                <div class="w-1/4 mt-36 rounded-xl mx-28 p-4 shadow-2xl" style={{ background: "#F58282" }}>
+                <div class="w-1/4 mt-36 rounded-xl mx-28 p-4 shadow-2xl  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" style={{ background: "#F58282" }}>
                     <div class="flex justify-center">
                         <img class="h-64" src={frame_6_2} alt="" />
                     </div>
@@ -58,7 +59,7 @@ const RegularActivities = () => {
                         <div>Involving in many seminars from big companies to get used to culture, environment and career prospect in working world.</div>
                     </div>
                 </div>
-                <div class="w-1/4 bg-red-100 mr-32 mb-36 rounded-xl p-4 shadow-2xl" style={{ background: "#F5CBFF", zIndex:5 }}>
+                <div class="w-1/4 bg-red-100 mr-32 mb-36 rounded-xl p-4 shadow-2xl  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" style={{ background: "#F5CBFF", zIndex:5 }}>
                     <div class="flex justify-center">
                         <img class="h-64" src={frame_6_3} alt="" />
                     </div>
@@ -92,8 +93,9 @@ const RegularActivities = () => {
             </div>
             <div class="pt-10" style={{ background: "linear-gradient(135deg, #FFF3B0 0%, #CA26FF 100%)" }}>
                 <div class="flex w-full pl-10">
-                    <div class="w-1/4 rounded-3xl bg-white">
-                        <img class="" src={ThTien} alt="" />
+                    <div class="w-1/4 rounded-3xl">
+                        <img class=" absolute w-1/4" src={bg_white} alt="" style={{ zIndex:0 }}/>
+                        <img class="relative w-full left-7 top-5" src={ThTien} alt="" style={{ zIndex:5 }}/>
                     </div>
                     <div class="w-3/4">
                         <div class="h-3/4 text-center w-3/4 pt-10 pl-10">
@@ -111,8 +113,9 @@ const RegularActivities = () => {
                             <p class="pt-8">Dang Tuan Dat- Vice President</p>
                         </div>
                     </div>
-                    <div class="w-1/4 rounded-3xl bg-white mb-4">
-                        <img class="" src={ADat} alt="" />
+                    <div class="w-1/4 rounded-3xl mb-4">
+                    <img class=" absolute w-1/4" src={bg_white} alt="" style={{ zIndex:0 }}/>
+                        <img class="relative w-full right-7 bottom-5" src={ADat} alt="" style={{ zIndex:5 }}/>
                     </div>
                 </div>
                 <div>
