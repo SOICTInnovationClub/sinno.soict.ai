@@ -12,7 +12,8 @@ const OurVision = () => {
                 <div class="font-black text-3xl text-white">
                     Our Vision
                 </div>
-                <div class="text-white text-xl w-3/4 pt-7">We are heading to bulid a club surrounded by talented, dedicate and top-class strudents recognizing by many contests and start-up technology in the future.</div>
+                <div class="text-white text-xl w-3/4 pt-7">We are heading to bulid a club surrounded by talented, dedicate and top-class strudents recognizing by many contests and start-up technology in the future.
+                </div>
                 <div>
                     <img class="pl-10" src={ frame_3_2} alt="" />
                 </div>
