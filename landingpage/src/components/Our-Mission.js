@@ -4,39 +4,33 @@ import frame_4_2 from '../images/frame_4_2.png';
 
 const OurMission = () => {
     return (
-        <div class="font-sans px-24" style={{background: "linear-gradient(135deg, #92FFC0 0%, #002661 100%)" }}>
+        <div class="font-sans px-28" style={{background: "linear-gradient(135deg, #92FFC0 0%, #002661 100%)" }}>
             <div class="relative h-0">
-                <div class="border relative rounded-full opacity-25" style={{
-                    width: '265px', background: 'rgba(190, 248, 27, 0.2)',
-                    height: '272px', left: '842px', top: '452px'
+                <div class="relative rounded-full" style={{
+                    width: '215px', background: 'rgba(190, 248, 27, 0.2)',
+                    height: '212px', left: '542px', top: '200px'
                 }}>
                 </div>
-                <div class="border relative rounded-full opacity-25" style={{
+                <div class="relative rounded-full" style={{
                     width: '224px', background: 'rgba(0, 38, 97, 0.2)',
-                    height: '222px', left: '305px', top: '97px'
-                }}></div>
-                <div class="border relative rounded-full opacity-25" style={{
-                    width: '239px', background: 'rgba(255, 210, 111, 0.2)',
-                    height: '233px', left: '219px', bottom: '400px'
+                    height: '222px', left: '805px', top: '400px'
                 }}></div>
             </div>
-            <div class="w-full pr-5" >
-                <img class="float-right w-1/3 " style={{top: '200px', zIndex: 1 }} src={frame_4_1} alt="" />
+            <div class="w-5/12 float-right" style={{ zIndex:5 }}>
+                <img class="float-right w-full relative ml-12" style={{ top:"-150px", right:"-100px"}} src={frame_4_1} alt=""/>
             </div>
-
-            <div class="pr-20">
-                <div class="font-sans text-5xl text-white">
+            <div class="pt-10 w-full" style={{ zIndex:5 }}>
+                <div class="font-sans font-bold text-5xl text-white" style={{ zIndex:5 }}>
                     Our Mission
                 </div>
-                <div class="font-sans text-white text-xl w-3/4 pt-7">Building an environment where the members can develop their full potential is our first
+                <div class="font-sans text-white text-xl w-full pt-7" style={{ zIndex:5 }}>Building an environment where the members can develop their full potential is our first
                     mision. We provide powerful infrastructure data and IoT platform for members to easily
                     connect with each others. As the result, they can discover their own hidden talent and
                     choose the right path for their careers.
                 </div>
-                
             </div>
-            <div class="w-1/2 pr-20">
-                    <img class="pl-10" src={frame_4_2} alt="" />
+            <div class="w-7/12">
+                    <img class="w-full relative" style={{ bottom:"-108px", left:"-100px"}} src={frame_4_2} alt="" />
             </div>
         </div>
     );
