@@ -2,13 +2,14 @@ import React from 'react';
 import bkai from '../images/bkai.png';
 import vt3 from '../images/Vector1.png';
 import phg from '../images/phg.png'
+import sinno from '../images/sinno.png'
 const New = () => {
     return (
         <div class="font-sans" style={{ background: "linear-gradient(135deg, #FFFFFF 0%, #58CFFB 100%)" }}>
-            <div class="px-28 pt-10 pb-28">
-                <div class="text-7xl font-black">
-                    News
-                    <div><img src="" alt="" /></div>
+            <div class="px-28 pt-10 pb-28" style={{ zIndex:10 }}>
+                <div class="text-7xl font-black flex" style={{ zIndex:10 }}>
+                    <div>News</div>
+                    <div><img class="w-12 mt-5 ml-5" src={sinno} alt="" style={{ zIndex:10 }} /></div>
                 </div>
                 <div class="flex font-bold text-xl">
                     <div class="w-3/4">
