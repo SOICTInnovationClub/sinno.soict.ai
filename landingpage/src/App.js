@@ -17,6 +17,7 @@ function App() {
       <RegularActivities/>
       <New/>
       <Contact/>
+
     </div>
   );
 }
