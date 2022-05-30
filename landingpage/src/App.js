@@ -9,7 +9,7 @@ import Welcome from "./components/welcome"
 import WhatWeDo from "./components/What-we-do";
 function App() {
   return (
-    <div className="App">
+    <div className="App w-screen">
         {/* <Goo/> */}
       <Welcome/>
       <WhatWeDo/>
