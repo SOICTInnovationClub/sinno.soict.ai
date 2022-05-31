@@ -89,7 +89,15 @@ const RegularActivities = () => {
                 </div>
             </div>
             <div>
-                <img src={vt3} alt="" />
+                <svg class="w-full h-full" viewBox="0 0 1440 272" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 234.393L60 177.292C120 121.488 240 9.88141 360 0.797125C480 -9.58492 600 83.8535 720 140.955C840 196.758 960 214.927 1080 187.674C1200 159.123 1320 83.8535 1380 47.5163L1440 9.88141V346H1380C1320 346 1200 346 1080 346C960 346 840 346 720 346C600 346 480 346 360 346C240 346 120 346 60 346H0V234.393Z" fill="url(#paint0_linear_136_14)"/>
+                        <defs>
+                            <linearGradient id="paint0_linear_136_14" x1="27" y1="272.5" x2="168.916" y2="908.767" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#FFF3B0"/>
+                                <stop offset="0.964179" stop-color="#CA26FF"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>            
             </div>
             <div class="pt-10" style={{ background: "linear-gradient(135deg, #FFF3B0 0%, #CA26FF 100%)" }}>
                 <div class="flex w-full pl-10">
@@ -110,7 +118,7 @@ const RegularActivities = () => {
                     <div class="w-2/3">
                         <div class="text-center w-3/4 pt-36 pl-64">
                             Man City is the champion of champion
-                            <p class="pt-8">Dang Tuan Dat- Vice President</p>
+                            <p class="pt-8">Hoang Dang Tuan Dat - Vice President</p>
                         </div>
                     </div>
                     <div class="w-1/4 rounded-3xl mb-4">
@@ -119,7 +127,15 @@ const RegularActivities = () => {
                     </div>
                 </div>
                 <div>
-                    <img src={vt} alt="" />
+                    <svg class="w-full h-full" viewBox="0 0 1440 523" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0L48 43.5697C96 87.1395 192 174.279 288 252.947C384 331.614 480 400.6 576 400.6C672 400.6 768 331.614 864 269.89C960 209.377 1056 157.335 1152 174.279C1248 191.223 1344 278.362 1392 321.932L1440 365.502V522.837H1392C1344 522.837 1248 522.837 1152 522.837C1056 522.837 960 522.837 864 522.837C768 522.837 672 522.837 576 522.837C480 522.837 384 522.837 288 522.837C192 522.837 96 522.837 48 522.837H0V0Z" fill="url(#paint0_linear_146_4)"/>
+                        <defs>
+                            <linearGradient id="paint0_linear_146_4" x1="-18" y1="522.837" x2="223.038" y2="1629.49" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="white"/>
+                                <stop offset="1" stop-color="#4C83FF"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
                 </div>
             </div>
         </div>

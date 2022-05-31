@@ -27,7 +27,7 @@ const WhatWeDo = () => {
                         <div class="relative flex justify-center mt-24 -left-10" style={{top:'-9rem'}}>
                             <img src={reminder} alt="reminder"></img>
                         </div>
-                        <div class="flex justify-center mb-10" style={{marginTop:'-5.8rem'}}>
+                        <div class="flex justify-center mb-10" style={{marginTop:'-3.8rem'}}>
                             <p class="font-bold text-4xl">Reminder</p>
                         </div>
                     </div>

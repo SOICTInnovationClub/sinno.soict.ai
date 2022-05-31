@@ -46,7 +46,15 @@ const Welcome = () => {
                 </video>
             </div>
             <div>
-                <img src={ Vector_welcome} style={{width:'1440px'}}></img>
+                <svg class="w-full h-full" viewBox="0 0 1440 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 59.4574L60 52.4574C120 45.4574 240 31.4574 360 38.4574C480 45.4574 600 74.4574 720 59.4574C840 45.4574 960 -12.5426 1080 2.45741C1200 16.4574 1320 103.457 1380 146.457L1440 189.457H1380C1320 189.457 1200 189.457 1080 189.457C960 189.457 840 189.457 720 189.457C600 189.457 480 189.457 360 189.457C240 189.457 120 189.457 60 189.457H0V59.4574Z" fill="url(#paint0_linear_147_14)"/>
+                    <defs>
+                        <linearGradient id="paint0_linear_147_14" x1="35" y1="64" x2="60.5352" y2="404.862" gradientUnits="userSpaceOnUse">
+                            <stop offset="0.367082" stop-color="#3C8CE7"/>
+                            <stop offset="1" stop-color="#ABDCFF"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
             </div>
         </div>
     )
