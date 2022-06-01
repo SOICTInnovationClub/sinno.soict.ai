@@ -32,7 +32,15 @@ const New = () => {
             </div>
             <div class="">
                 <img class="h-96 absolute right-28 float-right z-10" src={phg} alt="" />
-                <div class="right-0 relative"><img src={vt3} alt="" /></div>
+                <svg class="w-full h-full" viewBox="0 0 1440 343" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 83.8868L60 90.8868C120 97.8868 240 112.887 360 97.8868C480 83.8868 600 40.8868 720 18.8868C840 -3.11323 960 -3.11323 1080 4.88677C1200 11.8868 1320 25.8868 1380 32.8868L1440 40.8868V342.887H1380C1320 342.887 1200 342.887 1080 342.887C960 342.887 840 342.887 720 342.887C600 342.887 480 342.887 360 342.887C240 342.887 120 342.887 60 342.887H0V83.8868Z" fill="url(#paint0_linear_196_5)"/>
+                        <defs>
+                            <linearGradient id="paint0_linear_196_5" x1="-118" y1="372" x2="105.579" y2="1062.86" gradientUnits="userSpaceOnUse">
+                                <stop offset="0.0110721" stop-color="#C2FFD8"/>
+                                <stop offset="1" stop-color="#736EFE"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
             </div>
             
         </div>
