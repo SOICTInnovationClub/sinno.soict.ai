@@ -1,0 +1,53 @@
+@startuml
+package "Home"{
+    [Our vision]
+    [Our Mission]
+    [New]
+    [Welcome]
+    [What we do]
+    [Regular activities]
+    [Contact]
+    [Contest]
+}
+node "welcome"{
+    [Products]
+    [Service]
+    [Hackathon] --> [Contest]
+    [News] --> [New]
+    [More about us] --> [Regularactivities]
+    [Video]
+}
+node "Whatwedo"{
+    [Automail]
+    [Reminder]
+    [Workflow]
+    [Template]
+    [More products]
+}
+node "contest"{
+    [Innovation day]
+    [hackathon]
+}
+node "Regularactivities"{
+    [Co-working]
+    [Seminar]
+    [Training]
+    [Moment of SINNO] --> [Video]
+}
+node "ListNews"{
+    [BKAI]
+    [Scholarship]
+}
+node "contact"{
+    [info]
+    [facebook]
+    [Git]
+    [Instagram]
+}
+[Welcome] --> welcome
+[What we do] --> Whatwedo
+[Contest] --> contest
+[Regular activities] --> Regularactivities
+[New] --> ListNews
+[Contact] --> contact
+@enduml

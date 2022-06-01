@@ -6,7 +6,7 @@ import workflow from '../images/whatwedo/workflow.png';
 
 const WhatWeDo = () => {
     return (
-        <div class="pt-16" style={{ background: 'linear-gradient(135deg, #3C8CE7 0%, #00EAFF 100%)' }}>
+        <div class="pt-16 font-sans" style={{ background: 'linear-gradient(135deg, #3C8CE7 0%, #00EAFF 100%)' }}>
             <div class="flex justify-center">
                 <div class="flex mx-96 justify-center py-12 bg-gradient-to-br from-cyan-300 to-blue-700" style={{width: '595px',
     height: '186px',borderRadius: '79px'}}>
@@ -15,7 +15,7 @@ const WhatWeDo = () => {
             </div>
             <div class="mx-10">
                 <div class="flex justify-between px-10" style={{marginTop:'5.6rem', marginBottom:'5.6rem'}}>
-                    <div class="bg-white rounded-3xl w-1/6 px-5 h-96 items-center drop-shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div class="bg-white rounded-3xl w-1/5 px-5 h-96 items-center drop-shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                         <div class="flex justify-center mt-10">
                             <img src={email} alt="emailtool"></img>
                         </div>
@@ -23,7 +23,7 @@ const WhatWeDo = () => {
                             <p class="font-bold text-4xl">Automail</p>
                         </div>
                     </div>
-                    <div class="bg-white rounded-3xl w-1/6 px-5 h-96 items-center mx-8 drop-shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div class="bg-white rounded-3xl w-1/5 px-5 h-96 items-center mx-8 drop-shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                         <div class="relative flex justify-center mt-24 -left-10" style={{top:'-9rem'}}>
                             <img src={reminder} alt="reminder"></img>
                         </div>
@@ -31,7 +31,7 @@ const WhatWeDo = () => {
                             <p class="font-bold text-4xl">Reminder</p>
                         </div>
                     </div>
-                    <div class="bg-white rounded-3xl w-1/6 px-5 h-96 items-center drop-shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div class="bg-white rounded-3xl w-1/5 px-5 h-96 items-center drop-shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                         <div class="flex justify-center mt-9">
                             <img src={workflow} alt="workflow"></img>
                         </div>
@@ -39,7 +39,7 @@ const WhatWeDo = () => {
                             <p class="font-bold text-4xl">Workflow</p>
                         </div>
                     </div>
-                    <div class="bg-white rounded-3xl w-1/6 px-5 h-96 items-center drop-shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div class="bg-white rounded-3xl w-1/5 px-5 h-96 items-center drop-shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                         <div class="flex justify-center mt-9">
                             <img src={brochure} alt="template"></img>
                         </div>
@@ -60,8 +60,8 @@ const WhatWeDo = () => {
                     <div class="flex justify-center">
                         <p class="text-white font-bold text-4xl">Wanna know more? Click here</p>
                     </div>
-                    <div class="-mt-3 ml-12 bg-gradient-to-br from-cyan-200 to-sky-700 w-1/4 flex justify-center rounded-full" style={{height:'4rem'}}>
-                        <button class="text-white font-bold text-4xl justify-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">More products</button>
+                    <div class="mt-3 ml-12 w-1/4 flex justify-center rounded-full" style={{height:'4rem'}}>
+                        <button class="text-white  bg-gradient-to-br from-cyan-200 to-sky-700 font-bold text-4xl justify-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">More products</button>
                     </div>
                 </div>
                     <svg class="w-full h-full"  viewBox="0 0 1440 432" fill="none" xmlns="http://www.w3.org/2000/svg">
