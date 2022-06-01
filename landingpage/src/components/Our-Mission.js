@@ -1,7 +1,6 @@
 ﻿import React from 'react';
 import frame_4_1 from '../images/frame_4_1.png';
 import frame_4_2 from '../images/frame_4_2.png';
-
 const OurMission = () => {
     return (
         <div class="font-sans px-28" style={{background: "linear-gradient(135deg, #92FFC0 0%, #002661 100%)" }}>
@@ -19,7 +18,7 @@ const OurMission = () => {
             <div class="w-5/12 float-right" style={{ zIndex:5 }}>
                 <img class="float-right w-full relative ml-12" style={{ top:"-150px", right:"-100px"}} src={frame_4_1} alt=""/>
             </div>
-            <div class="pt-10 w-full" style={{ zIndex:5 }}>
+            <div class="w-full relative" style={{bottom:"-150px", zIndex:5 }}>
                 <div class="font-sans font-bold text-5xl text-white" style={{ zIndex:5 }}>
                     Our Mission
                 </div>
@@ -30,7 +29,7 @@ const OurMission = () => {
                 </div>
             </div>
             <div class="w-7/12">
-                    <img class="w-full relative" style={{ bottom:"-108px", left:"-100px"}} src={frame_4_2} alt="" />
+                <img class="w-full relative" style={{ bottom:"-108px", left:"-100px"}} src={frame_4_2} alt="" />
             </div>
         </div>
     );

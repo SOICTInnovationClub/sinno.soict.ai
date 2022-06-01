@@ -25,7 +25,7 @@ const OurVision = () => {
                     <div class="font-sans font-bold text-5xl text-white" style={{ zIndex:5 }}>
                         Our Vision
                     </div>
-                    <div class="font-sans text-white text-3xl w-3/4 pt-7">We are heading to bulid a club surrounded by talented, dedicate and top-class strudents recognizing by many contests and start-up technology in the future.
+                    <div class="font-sans text-white text-3xl w-full pt-7">We are heading to bulid a club surrounded by talented, dedicate and top-class strudents recognizing by many contests and start-up technology in the future.
                     </div>
                     <div style={{ zIndex:5 }}>
                         <img class="pl-10" src={ frame_3_2} alt="" />

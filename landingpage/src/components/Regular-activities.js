@@ -19,7 +19,7 @@ const RegularActivities = () => {
                 height: '175px',left: '600px', top: '60px'}}>  
                 </div>
                 <div class="relative rounded-full" style={{width: '230px', background: 'rgba(239, 7, 7, 0.2)',
-                height: '230px',left: '1150px', top: '0px'}}></div>
+                height: '230px',left: '1134px', top: '0px'}}></div>
                 <div class="relative rounded-full" style={{width: '175px', background: 'rgba(239, 7, 7, 0.2)',
                 height: '175px',left: '870px', top: '120px'}}></div>
                 <div class="relative rounded-full" style={{width: '175px', background: 'rgba(255, 233, 133, 0.2)',

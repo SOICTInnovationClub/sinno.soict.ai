@@ -1,5 +1,4 @@
 import React from 'react';
-import Vector_welcome from '../images/Vector_welcome.png'
 import frame_1_1 from '../images/frame_1_1.png'
 import SINNO_1 from '../images/SINNO_1.png'
 import sample from '../sinno.mp4';
@@ -8,7 +7,7 @@ const Welcome = () => {
     return (
         <div class="pt-5" style={{ background: 'linear-gradient(135deg, #E8D07A 0%, #5312D6 100%)' }}>
             <div class="absolute rounded-full bg-blue-300 opacity-25" style={{width: '265px',
-            height: '275px',left: '1073px', top: '672px'}}></div>
+            height: '275px',left: '1065px', top: '672px'}}></div>
             <div class="absolute rounded-full bg-blue-300 opacity-25  " style={{width: '267px',
             height: '250px', top: '420px'}}></div>
             <div class="absolute rounded-full bg-yellow-300 opacity-25" style={{width: '231px',
@@ -29,15 +28,14 @@ const Welcome = () => {
             <div class="flex z-10" style={{ zIndex:5 }}>
                 <div class="ml-36" style={{marginTop:'166px',width:'433px', zIndex:5}}>
                     <div class="z-10">
-                        <p class="font-bold text-white" style={{fontSize:'64px', zIndex:5}}>We are ready to change the world</p>
+                        <p class="font-bold text-white" style={{fontSize:'64px'}}>We are ready to change the world</p>
                     </div>
-                    <div class="pl-20" style={{width: '665px',
-                    height: '82px', marginTop:'91px', zIndex:5}}>
-                       <Buttom></Buttom> 
+                    <div class="pl-20" style={{marginTop:'91px'}}>
+                       <Buttom/> 
                     </div>
                 </div>
                 <div style={{ zIndex:5 }}>
-                    <img src={ frame_1_1} style={{marginTop:'100px', marginLeft:'134px', marginBottom:'282px', zIndex:5}}></img>
+                    <img src={ frame_1_1} style={{marginTop:'100px', marginLeft:'134px', marginBottom:'282px'}}></img>
                 </div>
             </div>
             <div class="px-20 pb-10">
