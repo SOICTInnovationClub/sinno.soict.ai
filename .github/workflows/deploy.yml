@@ -48,7 +48,7 @@ jobs:
     - name: Transfer /build folder to server
       uses: garygrossgarten/github-action-scp@release
       with:
-        local: build
+        local: landingpage/build
         remote: /root/sinno.soict.ai
         host: ${{ secrets.WEB_SERVER }}
         username: ${{ secrets.USERNAME }}
