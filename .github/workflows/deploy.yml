@@ -41,6 +41,7 @@ jobs:
         NODE_OPTIONS: --openssl-legacy-provider
         CI: false
       run: |
+        cd landingpage
         npm i --ignore-scripts
         npm run build
 
