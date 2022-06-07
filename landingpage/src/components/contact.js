@@ -43,22 +43,22 @@ const Contact = () => {
                     </div>
                     <div class="flex">
                         <div class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 p-3 w-14">
-                            <a href="">
+                            <a href="https://www.facebook.com/SINNOclub" target="_blank">
                                 <img src={fb} alt="" />
                             </a>
                         </div>
                         <div class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 p-3 w-16">
-                            <a href="">
+                            <a href="https://github.com/SOICTInnovationClub" target="_blank">
                                 <img src={git} alt="" />
                             </a>
                         </div>
                         <div class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 p-1 w-16">
-                            <a href="">
+                            <a href=""  target="_blank">
                                 <img src={insta} alt="" />
                             </a>
                         </div>
                         <div class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 p-1 w-16">
-                            <a href="">
+                            <a href=""  target="_blank">
                                 <img src={linked} alt="" />
                             </a>
                         </div>   

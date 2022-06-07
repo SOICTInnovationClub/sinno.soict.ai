@@ -16,7 +16,7 @@ const Welcome = () => {
             <div class="flex" style={{ zIndex:5 }}>
                 <img class="ml-10" src={ SINNO_1} style={{ zIndex:5 }}></img>
                 <div class="ml-5 mt-6">
-                    <p class="font-light text-5xl">Soict Innovation Club</p>
+                    <p class="font-light text-5xl">SoICT Innovation Club</p>
                 </div>
                 <div class="flex text-xl justify-between grid-cols-5 gap-x-12 ml-40 mt-10">
                     <a class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">Home</a>
